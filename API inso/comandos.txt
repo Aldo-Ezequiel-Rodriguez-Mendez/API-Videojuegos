@@ -1,0 +1,30 @@
+CREAR UNA API REST CON MONGO DB  y node.js
+
+Pagina web del tutorial: 
+https://lo-victoria.com/series/nodejs-rest-api
+
+
+
+
+//Sirve para inicciar el servidor
+npm install express 
+
+        
+// Sirve para documentar el API con Swagger usando YAML
+npm install swagger-ui-express 
+npm install swagger-jsdoc
+
+//Sirve para subir archivos (iamgenes,documentos, etc...)
+npm install multer
+
+//Sirve para conectar nuestra API con una base de datos de MONGODB
+npm install --save mongoose
+
+//install the package dotenv npm so that we can use our .env file in our project:
+npm install dotenv
+
+npm install --save helmet
+
+npm install compression
+
+

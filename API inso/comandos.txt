@@ -27,4 +27,12 @@ npm install --save helmet
 
 npm install compression
 
+//COMANDOS DE HEROKU
+heroku login
+git init
+heroku git:remote -a "nombre de tu applicacion en heroku"
+git add .
+gt commit -am "commit"
+git push heroku master
 
+heroku config:set MONGODB_URI="mongodb+srv://Aldo:ezequiel123@cluster0.telfxp2.mongodb.net/?retryWrites=true&w=majority"

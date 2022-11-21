@@ -32,7 +32,6 @@ const nuevoVideojuego = (req, res, next) => {
             //creamos un nuevo objeto videojuego con ayuda del modelo Videojuego y con req.body
             const nuevoVideojuego = new Videojuego({
                 id: req.body.id,
-                image: req.file.path,
                 descripcion: req.body.descripcion
             })
 
